@@ -1,4 +1,9 @@
-# Compiled class file
+/target/
+/.idea/
+/.settings/
+.classpath
+.project
+*.iml# Compiled class file
 *.class
 
 # Log file
