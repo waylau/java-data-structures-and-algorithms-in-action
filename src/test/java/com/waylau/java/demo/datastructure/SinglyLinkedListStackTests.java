@@ -11,18 +11,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 /**
- * SequentialListStack Test
+ * SinglyLinkedListStack Test
  * 
- * @since 1.0.0 2020年5月6日
+ * @since 1.0.0 2020年5月8日
  * @author <a href="https://waylau.com">Way Lau</a>
  */
-class SequentialListStackTests {
+class SinglyLinkedListStackTests {
 
 	@Test
 	void testSize() {
-		// 实例化SequentialListStack
-		Stack<String> stack = new SequentialListStack<String>(
-				5);
+		// 实例化SinglyLinkedListStack
+		Stack<String> stack = new SinglyLinkedListStack<String>();
 		assertTrue(stack.size() == 0);
 
 		stack.push("Java");
@@ -31,9 +30,8 @@ class SequentialListStackTests {
 
 	@Test
 	void testIsEmpty() {
-		// 实例化SequentialListStack
-		Stack<String> stack = new SequentialListStack<String>(
-				5);
+		// 实例化SinglyLinkedListStack
+		Stack<String> stack = new SinglyLinkedListStack<String>();
 		assertTrue(stack.isEmpty());
 
 		stack.push("Java");
@@ -42,29 +40,21 @@ class SequentialListStackTests {
 
 	@Test
 	void testPush() {
-		// 实例化SequentialListStack
-		Stack<Integer> stack = new SequentialListStack<Integer>(
-				5);
+		// 实例化SinglyLinkedListStack
+		Stack<Integer> stack = new SinglyLinkedListStack<Integer>();
 		stack.push(1);
 		stack.push(2);
 		stack.push(3);
 		stack.push(4);
 		stack.push(5);
 
-		Throwable excpetion = assertThrows(
-				IndexOutOfBoundsException.class, () -> {
-					stack.push(6); // 抛异常
-				});
-
-		assertEquals("list is full",
-				excpetion.getMessage());
+		assertTrue(stack.size() == 5);
 	}
 
 	@Test
 	void testPop() {
-		// 实例化SequentialListStack
-		Stack<String> stack = new SequentialListStack<String>(
-				5);
+		// 实例化SinglyLinkedListStack
+		Stack<String> stack = new SinglyLinkedListStack<String>();
 		stack.push("Java");
 		stack.push("C++");
 		stack.push("C");
@@ -77,9 +67,8 @@ class SequentialListStackTests {
 
 	@Test
 	void testPeek() {
-		// 实例化SequentialListStack
-		Stack<String> stack = new SequentialListStack<String>(
-				5);
+		// 实例化SinglyLinkedListStack
+		Stack<String> stack = new SinglyLinkedListStack<String>();
 		stack.push("Java");
 		stack.push("C++");
 		stack.push("C");

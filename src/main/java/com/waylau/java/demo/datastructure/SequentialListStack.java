@@ -4,6 +4,8 @@
 package com.waylau.java.demo.datastructure;
 
 /**
+ * SequentialList Stack
+ * 
  * @since 1.0.0 2020年5月7日
  * @author <a href="https://waylau.com">Way Lau</a>
  */
@@ -27,19 +29,20 @@ public class SequentialListStack<E> implements Stack<E> {
 
 	@Override
 	public E push(E e) {
-		sequentialList.add(e);
+		// 表尾作为栈顶
+		sequentialList.addLast(e);
 		return e;
 	}
 
 	@Override
 	public E pop() {
-		return (E) sequentialList
-				.remove(sequentialList.size() - 1);
+		// 表尾作为栈顶
+		return sequentialList.removeLast();
 	}
 
 	@Override
 	public E peek() {
-		return (E) sequentialList
+		return sequentialList
 				.get(sequentialList.size() - 1);
 	}
 

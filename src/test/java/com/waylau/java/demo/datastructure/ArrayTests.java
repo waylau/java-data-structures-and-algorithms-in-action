@@ -129,4 +129,25 @@ class ArrayTests {
 			System.out.println(letter);
 		}
 	}
+	
+	@Test
+	void testSystemArraycopy() {
+		String[] oldArray = { "Java", 
+				"Python", 
+				"C",
+				"Dart",
+				null };
+
+		int length = oldArray.length;
+		
+		String[] newArray = new String[length];
+		
+		System.arraycopy(oldArray, 0, newArray, 1, 4);
+		
+		System.out.println("拷贝后：");
+		
+		for (String letter : newArray) {
+			System.out.println(letter);
+		}
+	}
 }

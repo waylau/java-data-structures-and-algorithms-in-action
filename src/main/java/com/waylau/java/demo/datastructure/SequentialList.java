@@ -3,11 +3,6 @@
  */
 package com.waylau.java.demo.datastructure;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-
 /**
  * Sequence List.
  * 
@@ -41,7 +36,7 @@ public class SequentialList<E> implements List<E> {
 
 	@Override
 	public boolean isEmpty() {
-		return size == 0 ? true : false;
+		return size == 0;
 	}
 
 	@Override
@@ -65,24 +60,6 @@ public class SequentialList<E> implements List<E> {
 	}
 
 	@Override
-	public Iterator<E> iterator() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Object[] toArray() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public <T> T[] toArray(T[] a) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public boolean add(E e) {
 		// 判断是否越界
 		if (size == elementData.length) {
@@ -94,47 +71,7 @@ public class SequentialList<E> implements List<E> {
 		return true;
 	}
 
-	@Override
-	public boolean remove(Object o) {
-		// TODO Auto-generated method stub
-		return false;
-	}
 
-	@Override
-	public boolean containsAll(Collection<?> c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean addAll(Collection<? extends E> c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean addAll(int index, Collection<? extends E> c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean removeAll(Collection<?> c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean retainAll(Collection<?> c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public void clear() {
-		// TODO Auto-generated method stub
-
-	}
 
 	@Override
 	public E get(int index) {
@@ -165,12 +102,6 @@ public class SequentialList<E> implements List<E> {
 	}
 
 	@Override
-	public void add(int index, E element) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
 	public E remove(int index) {
 		// 判断是否越界
 		if (index < 0 || index > elementData.length - 1) {
@@ -189,33 +120,39 @@ public class SequentialList<E> implements List<E> {
 	}
 
 	@Override
-	public int indexOf(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void addFirst(E e) {
+		// 判断是否已满
+		if (size == elementData.length) {
+			throw new IndexOutOfBoundsException("list is full");
+		}
+		
+		// 判断原数组是否为空.
+		// 如果为空，则新添加的数据元素直接放到索引为0的位置;
+		// 如果不为空，则原有数组的数据元素都要往后挪动1个位置,
+		// 新添加的数据元素放到索引为0的位置
+		if(!isEmpty()) {
+			for (int j = size - 1; j >=0; j--) {
+				elementData[j+1] = elementData[j]; // 数据元素后移
+			}
+		}
+		
+		elementData[0] = e;
+		size ++;
 	}
 
 	@Override
-	public int lastIndexOf(Object o) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void addLast(E e) {
+		add(e);
 	}
 
 	@Override
-	public ListIterator<E> listIterator() {
-		// TODO Auto-generated method stub
-		return null;
+	public E removeFirst() {
+		return remove(0);
 	}
 
 	@Override
-	public ListIterator<E> listIterator(int index) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<E> subList(int fromIndex, int toIndex) {
-		// TODO Auto-generated method stub
-		return null;
+	public E removeLast() {
+		return remove(size - 1);
 	}
 
 }

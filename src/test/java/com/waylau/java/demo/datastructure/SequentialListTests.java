@@ -9,12 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
 
 /**
- * SequenceList Test
+ * SequentialList Test
  * 
  * @since 1.0.0 2020年5月3日
  * @author <a href="https://waylau.com">Way Lau</a>
@@ -23,7 +21,7 @@ class SequentialListTests {
 
 	@Test
 	void testSize() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		assertTrue(list.size() == 0);
 
@@ -33,7 +31,7 @@ class SequentialListTests {
 
 	@Test
 	void testIsEmpty() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		assertTrue(list.isEmpty());
 
@@ -43,7 +41,7 @@ class SequentialListTests {
 
 	@Test
 	void testContains() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		list.add("Java");
 		list.add("C++");
@@ -60,7 +58,7 @@ class SequentialListTests {
 
 	@Test
 	void testAdd() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<Integer> list = new SequentialList<Integer>(5);
 		list.add(1);
 		list.add(2);
@@ -77,7 +75,7 @@ class SequentialListTests {
 
 	@Test
 	void testGet() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		list.add("Java");
 		list.add("C++");
@@ -92,7 +90,7 @@ class SequentialListTests {
 
 	@Test
 	void testSet() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		list.add("Java");
 		list.add("C++");
@@ -107,7 +105,7 @@ class SequentialListTests {
 
 	@Test
 	void testRemove() {
-		// 实例化SequenceList
+		// 实例化SequentialList
 		List<String> list = new SequentialList<String>(5);
 		list.add("Java");
 		list.add("C++");
@@ -125,4 +123,60 @@ class SequentialListTests {
 		assertEquals("index " + index + " out of bounds", excpetion.getMessage());
 	}
 
+	@Test
+	void testAddFirst() {
+		// 实例化SequentialList
+		List<String> list = new SequentialList<String>(5);
+		list.addFirst("Java");
+		list.addFirst("C++");
+		list.addFirst("C");
+		
+		// 判断存在
+		assertEquals("C", list.get(0));
+		assertEquals("C++", list.get(1));
+		assertEquals("Java", list.get(2));
+	}
+	
+	@Test
+	void testAddLast() {
+		// 实例化SequentialList
+		List<String> list = new SequentialList<String>(5);
+		list.addLast("Java");
+		list.addLast("C++");
+		list.addLast("C");
+		
+		// 判断存在
+		assertEquals("Java", list.get(0));
+		assertEquals("C++", list.get(1));
+		assertEquals("C", list.get(2));
+	}
+	
+
+	@Test
+	void testRemoveFirst() {
+		// 实例化SequentialList
+		List<String> list = new SequentialList<String>(5);
+		list.add("Java");
+		list.add("C++");
+		list.add("C");
+		
+		// 判断存在
+		assertEquals("Java", list.removeFirst());
+		assertEquals("C++", list.removeFirst());
+		assertEquals("C", list.removeFirst());
+	}
+	
+	@Test
+	void testRemoveLast() {
+		// 实例化SequentialList
+		List<String> list = new SequentialList<String>(5);
+		list.add("Java");
+		list.add("C++");
+		list.add("C");
+		
+		// 判断存在
+		assertEquals("C", list.removeLast());
+		assertEquals("C++", list.removeLast());
+		assertEquals("Java", list.removeLast());
+	}
 }
