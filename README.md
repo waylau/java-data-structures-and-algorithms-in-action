@@ -17,7 +17,10 @@
 * Java队列04——链表实现的阻塞队列LinkedBlockingDeque：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259760684390535&fid=23>
 
 
+### Host 托管
 
+GitHub：<https://github.com/waylau/java-data-structures-and-algorithms-in-action/>
+码云：<https://gitee.com/waylau/java-data-structures-and-algorithms-in-action/>
 
 ### Issue 意见、建议
 
