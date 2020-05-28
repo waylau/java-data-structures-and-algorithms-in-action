@@ -19,8 +19,8 @@
 
 ### Host 托管
 
-GitHub：<https://github.com/waylau/java-data-structures-and-algorithms-in-action/>
-码云：<https://gitee.com/waylau/java-data-structures-and-algorithms-in-action/>
+* GitHub：<https://github.com/waylau/java-data-structures-and-algorithms-in-action/>
+* 码云：<https://gitee.com/waylau/java-data-structures-and-algorithms-in-action/>
 
 ### Issue 意见、建议
 
