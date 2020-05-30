@@ -12,7 +12,6 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @since 1.0.0 2020年5月23日
  * @author <a href="https://waylau.com">Way Lau</a>
  */
-
 class LinkedBlockingQueueDemo {
 
 	public static void main(String[] args) {
