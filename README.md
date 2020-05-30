@@ -14,7 +14,7 @@
 * Java队列01——Queue概述：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259752710220534&fid=23>
 * Java队列02——阻塞队列BlockingQueue：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259755234080557&fid=23>
 * Java队列03——数组实现的阻塞队列ArrayBlockingQueue：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259756622090558&fid=23>
-* Java队列04——链表实现的阻塞队列LinkedBlockingDeque：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259760684390535&fid=23>
+* Java队列04——链表实现的阻塞队列LinkedBlockingQueue：<https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259760684390535&fid=23>
 
 
 ### Host 托管
