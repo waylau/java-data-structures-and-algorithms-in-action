@@ -98,6 +98,7 @@ class ArrayTests {
 		
 		
 		// 新数组扩容为原数组的2倍
+		@SuppressWarnings("unused")
 		String[] newArray2 = Arrays.copyOf(oldArray, oldArray.length*2);;
 	}
 	
