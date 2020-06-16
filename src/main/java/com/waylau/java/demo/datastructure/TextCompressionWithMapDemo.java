@@ -47,10 +47,12 @@ public class TextCompressionWithMapDemo {
 
 		System.out.println("解压结果："
 				+ Arrays.toString(decompressResult));
+		
+		// 去除多余的符号
 		System.out.println(
 				"解压结果：" + Arrays.toString(decompressResult)
-						.replace("]", " ").replace("[", " ")
-						.replace(",", " "));
+						.replace("]", "").replace("[", "")
+						.replace(",", ""));
 	}
 
 	private static void makeDictionary(String[] words) {
