@@ -19,6 +19,8 @@
 * [Java队列06——数组实现的优先级阻塞队列PriorityBlockingQueue](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201262420998060008&fid=23)
 * [Java队列07——双端队列Deque](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201262421436060001&fid=23)
 * [Java队列08——数组实现的双端队列ArrayDeque](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201262422263910002&fid=23)
+* [Java树形结构01——树形结构的概述](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201301217688820096&fid=23)
+
 
 ### Host 托管
 
