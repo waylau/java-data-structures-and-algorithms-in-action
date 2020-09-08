@@ -20,7 +20,9 @@
 * [Java队列07——双端队列Deque](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201262421436060001&fid=23)
 * [Java队列08——数组实现的双端队列ArrayDeque](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201262422263910002&fid=23)
 * [Java树形结构01——树形结构的概述](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201301217688820096&fid=23)
-
+* [Java树形结构02——数组实现的二叉树](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201311694866010239&fid=23)
+* [Java树形结构03——链表实现的二叉树](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201311730782590289&fid=23)
+* [Java树形结构04——Huffman树的实现](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0202349832252380522&fid=23)
 
 ### Host 托管
 
