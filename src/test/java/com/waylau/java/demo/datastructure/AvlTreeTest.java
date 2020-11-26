@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
 /**
- * AVL Tree Test。
+ * AVL Tree Test
  * 
  * @since 1.0.0 2020年10月28日
  * @author <a href="https://waylau.com">Way Lau</a>
