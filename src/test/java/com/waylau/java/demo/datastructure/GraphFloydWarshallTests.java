@@ -77,13 +77,16 @@ public class GraphFloydWarshallTests {
 	@Order(1)
 	@Test
 	void testFloydWarshallonDirectedWithNegWeights() {
-		final DirectedWithNegativeWeights directedWithNegWeights = new DirectedWithNegativeWeights();
+		final DirectedWithNegativeWeights directedWithNegWeights = 
+				new DirectedWithNegativeWeights();
 		{
-			final Map<Vertex<Integer>, Map<Vertex<Integer>, Integer>> pathWeights = GraphFloydWarshall
+			final Map<Vertex<Integer>, Map<Vertex<Integer>, Integer>> pathWeights = 
+					GraphFloydWarshall
 					.getAllPairsShortestPaths(
 							directedWithNegWeights.graph);
 
-			final Map<Vertex<Integer>, Map<Vertex<Integer>, Integer>> result = new HashMap<Vertex<Integer>, Map<Vertex<Integer>, Integer>>();
+			final Map<Vertex<Integer>, Map<Vertex<Integer>, Integer>> result = 
+					new HashMap<Vertex<Integer>, Map<Vertex<Integer>, Integer>>();
 			{
 
 				// Ideal weights
