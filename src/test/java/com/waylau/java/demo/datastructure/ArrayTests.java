@@ -16,6 +16,17 @@ import org.junit.jupiter.api.Test;
  * @author <a href="https://waylau.com">Way Lau</a>
  */
 class ArrayTests {
+	private String[] books = { "《分布式系统常用技术及案例分析》",
+			"《Spring Boot 企业级应用开发实战》",
+			"《Spring Cloud 微服务架构开发实战》", 
+			"《Spring 5 开发大全》",
+			"《Cloud Native 分布式架构原理与实践》",
+			"《Angular企业级应用开发实战》", 
+			"《大型互联网应用轻量级架构实战》",
+			"《Java核心编程》",
+			"《MongoDB＋Express＋Angular＋Node.js全栈开发实战派》",
+			"《Node.js企业级应用开发实战》", 
+			"《Netty原理解析与开发实战》" };
 
 	@Test
 	void testMultiDimArray() {
@@ -31,14 +42,6 @@ class ArrayTests {
 
 	@Test
 	void testFor() {
-		String[] books = { "《分布式系统常用技术及案例分析》",
-				"《Spring Boot 企业级应用开发实战》",
-				"《Spring Cloud 微服务架构开发实战》",
-				"《Spring 5 开发大全》",
-				"《Cloud Native 分布式架构原理与实践》",
-				"《Angular企业级应用开发实战》", "《大型互联网应用轻量级架构实战》",
-				"《Java核心编程》" };
-
 		System.out.println("老卫作品集：");
 
 		for (int i = 0; i < books.length; i++) {
@@ -48,15 +51,6 @@ class ArrayTests {
 
 	@Test
 	void testForEach() {
-		String[] books = { "《分布式系统常用技术及案例分析》",
-				"《Spring Boot 企业级应用开发实战》",
-				"《Spring Cloud 微服务架构开发实战》",
-				"《Spring 5 开发大全》",
-				"《Cloud Native 分布式架构原理与实践》",
-				"《Angular企业级应用开发实战》", 
-				"《大型互联网应用轻量级架构实战》",
-				"《Java核心编程》" };
-
 		System.out.println("老卫作品集：");
 
 		for (String book : books) {
@@ -66,9 +60,7 @@ class ArrayTests {
 
 	@Test
 	void testCopy() {
-		String[] oldArray = { "Java", 
-				"Python", 
-				"C",
+		String[] oldArray = { "Java", "Python", "C",
 				"Dart" };
 
 		// 引用赋值
@@ -80,67 +72,61 @@ class ArrayTests {
 		// oldArray中的元素也会跟着改变
 		assertEquals("C++", oldArray[2]);
 	}
-	
+
 	@Test
 	void testCopyOf() {
-		String[] oldArray = { "Java", 
-				"Python", 
-				"C",
+		String[] oldArray = { "Java", "Python", "C",
 				"Dart" };
 
-		String[] newArray = Arrays.copyOf(oldArray, oldArray.length);;
+		String[] newArray = Arrays.copyOf(oldArray,
+				oldArray.length);
+		;
 
 		// 改变newArray中的元素
 		newArray[2] = "C++";
 
 		// oldArray中的元素不会跟着改变
 		assertEquals("C", oldArray[2]);
-		
-		
+
 		// 新数组扩容为原数组的2倍
 		@SuppressWarnings("unused")
-		String[] newArray2 = Arrays.copyOf(oldArray, oldArray.length*2);;
+		String[] newArray2 = Arrays.copyOf(oldArray,
+				oldArray.length * 2);
+		;
 	}
-	
-	
+
 	@Test
 	void testSort() {
-		String[] array = { "Java", 
-				"Python", 
-				"C",
-				"Dart" };
+		String[] array = { "Java", "Python", "C", "Dart" };
 
 		System.out.println("排序前：");
-		
+
 		for (String letter : array) {
 			System.out.println(letter);
 		}
-		
+
 		Arrays.sort(array);
 
 		System.out.println("排序后：");
-		
+
 		for (String letter : array) {
 			System.out.println(letter);
 		}
 	}
-	
+
 	@Test
 	void testSystemArraycopy() {
-		String[] oldArray = { "Java", 
-				"Python", 
-				"C",
-				"Dart",
+		String[] oldArray = { "Java", "Python", "C", "Dart",
 				null };
 
 		int length = oldArray.length;
-		
+
 		String[] newArray = new String[length];
-		
+
 		System.arraycopy(oldArray, 0, newArray, 1, 4);
-		
+
 		System.out.println("拷贝后：");
-		
+
 		for (String letter : newArray) {
 			System.out.println(letter);
 		}
