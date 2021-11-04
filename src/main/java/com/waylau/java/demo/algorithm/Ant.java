@@ -160,7 +160,7 @@ public class Ant implements Cloneable {
 			}
 		}
 
-		// 从允许选择的城市中去除select city
+		// 从允许选择的城市中去除selectCity
 		for (Integer i : allowedCities) {
 			if (i.intValue() == selectCity) {
 				allowedCities.remove(i);
@@ -168,7 +168,7 @@ public class Ant implements Cloneable {
 			}
 		}
 
-		// 在禁忌表中添加select city
+		// 在禁忌表中添加selectCity
 		tabu.add(Integer.valueOf(selectCity));
 
 		// 将当前城市改为选择的城市

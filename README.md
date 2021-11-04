@@ -3,7 +3,7 @@
 
 涉及的相关技术及版本如下。
 
-* JDK 14
+* JDK 15
 * Apache Maven 3.6.3
 * JUnit 5.6.2
 
