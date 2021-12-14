@@ -12,6 +12,7 @@
 * [Eclipse IDE支持Java 14](https://waylau.com/eclipse-ide-support-java14/)
 * [在Maven项目中运行JUnit 5测试用例](https://waylau.com/running-junit5-tests-with-maven/)
 * [聊下什么是数据结构和算法](https://waylau.com/what-are-data-structures-and-algorithms/)
+* [算法的四种描述方式](https://waylau.com/description-of-algorithms/)
 * [Java队列01——Queue概述](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259752710220534&fid=23)
 * [Java队列02——阻塞队列BlockingQueue](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259755234080557&fid=23)
 * [Java队列03——数组实现的阻塞队列ArrayBlockingQueue](https://developer.huawei.com/consumer/cn/forum/topicview?tid=0201259756622090558&fid=23)
