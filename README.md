@@ -102,6 +102,7 @@
 * [NC270 把数组排成最小的数](https://developer.huawei.com/consumer/cn/forum/topic/0204102597329763202?fid=23)
 * [NC27 集合的所有子集（一）](https://developer.huawei.com/consumer/cn/forum/topic/0203102621699052203?fid=23)
 * [NC54 三数之和](https://developer.huawei.com/consumer/cn/forum/topic/0204102636376530221?fid=23)
+* [NC170 最长不含重复字符的子字符串](https://developer.huawei.com/consumer/cn/forum/topic/0203102647725528207?fid=23)
 
 ### Host 托管
 
