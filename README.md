@@ -97,6 +97,11 @@
 * [HJ85	最长回文子串](https://developer.huawei.com/consumer/cn/forum/topic/0202971858902280282?fid=23) 
 * [HJ88	扑克牌大小](https://developer.huawei.com/consumer/cn/forum/topic/0202971911289010285?fid=23) 
 * [HJ95	人民币转换](https://developer.huawei.com/consumer/cn/forum/topic/0201971961931650078?fid=23) 
+* [NC61 两数之和](https://developer.huawei.com/consumer/cn/forum/topic/0203102339152293150?fid=23)
+* [JZ42 连续子数组的最大和](https://developer.huawei.com/consumer/cn/forum/topic/0204102352622179160?fid=23)
+* [NC270 把数组排成最小的数](https://developer.huawei.com/consumer/cn/forum/topic/0204102597329763202?fid=23)
+* [NC27 集合的所有子集（一）](https://developer.huawei.com/consumer/cn/forum/topic/0203102621699052203?fid=23)
+* [NC54 三数之和](https://developer.huawei.com/consumer/cn/forum/topic/0204102636376530221?fid=23)
 
 ### Host 托管
 
