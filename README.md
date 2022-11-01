@@ -103,6 +103,11 @@
 * [NC27 集合的所有子集（一）](https://developer.huawei.com/consumer/cn/forum/topic/0203102621699052203?fid=23)
 * [NC54 三数之和](https://developer.huawei.com/consumer/cn/forum/topic/0204102636376530221?fid=23)
 * [NC170 最长不含重复字符的子字符串](https://developer.huawei.com/consumer/cn/forum/topic/0203102647725528207?fid=23)
+* [NC41 最长无重复子数组](https://developer.huawei.com/consumer/cn/forum/topic/0204102678513542223?fid=23)
+* [NC133 链表的奇偶重排](https://developer.huawei.com/consumer/cn/forum/topic/0203102681137882214?fid=23)
+* [NC223 从中序与后续遍历序列构造二叉树](https://developer.huawei.com/consumer/cn/blog/topic/03102696298575027)
+* [NC44 通配符匹配](https://developer.huawei.com/consumer/cn/blog/topic/03102698255507029)
+
 
 ### Host 托管
 
