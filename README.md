@@ -107,7 +107,8 @@
 * [NC133 链表的奇偶重排](https://developer.huawei.com/consumer/cn/forum/topic/0203102681137882214?fid=23)
 * [NC223 从中序与后续遍历序列构造二叉树](https://developer.huawei.com/consumer/cn/blog/topic/03102696298575027)
 * [NC44 通配符匹配](https://developer.huawei.com/consumer/cn/blog/topic/03102698255507029)
-
+* [NC92 最长的公共子序列（二）](https://developer.huawei.com/consumer/cn/blog/topic/03102780476537034)
+* [NC109 岛屿数量](https://developer.huawei.com/consumer/cn/blog/topic/03102788567314036)
 
 ### Host 托管
 
