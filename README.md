@@ -109,6 +109,14 @@
 * [NC44 通配符匹配](https://developer.huawei.com/consumer/cn/blog/topic/03102698255507029)
 * [NC92 最长的公共子序列（二）](https://developer.huawei.com/consumer/cn/blog/topic/03102780476537034)
 * [NC109 岛屿数量](https://developer.huawei.com/consumer/cn/blog/topic/03102788567314036)
+* [NC39 N皇后问题](https://developer.huawei.com/consumer/cn/blog/topic/03102856737594003)
+* [NC46 加起来和为目标值的组合(二)](https://developer.huawei.com/consumer/cn/blog/topic/03102871995044005)
+* [NC228 判断子序列](https://developer.huawei.com/consumer/cn/blog/topic/03102876056086005)
+* [NC190 字符串的全部子序列](https://developer.huawei.com/consumer/cn/blog/topic/03102881484929006)
+* [NC301 最大数字交换](https://developer.huawei.com/consumer/cn/blog/topic/03102941443529007)
+* [NC302 环形数组的连续子数组最大和](https://developer.huawei.com/consumer/cn/blog/topic/03102954812943008)
+* [JZ38 字符串的排列](https://developer.huawei.com/consumer/cn/forum/topic/0204102352622179160?fid=23))
+* [JZ36 二叉搜索树与双向链表](https://developer.huawei.com/consumer/cn/blog/topic/03103221491089011)
 
 ### Host 托管
 
