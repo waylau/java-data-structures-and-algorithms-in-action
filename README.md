@@ -117,6 +117,8 @@
 * [NC302 环形数组的连续子数组最大和](https://developer.huawei.com/consumer/cn/blog/topic/03102954812943008)
 * [JZ38 字符串的排列](https://developer.huawei.com/consumer/cn/forum/topic/0204102352622179160?fid=23))
 * [JZ36 二叉搜索树与双向链表](https://developer.huawei.com/consumer/cn/blog/topic/03103221491089011)
+* [JZ31 栈的压入、弹出序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104088717445272)
+* [NC52 有效括号序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104091461031275?fid=23)
 
 ### Host 托管
 
