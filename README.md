@@ -119,6 +119,7 @@
 * [JZ36 二叉搜索树与双向链表](https://developer.huawei.com/consumer/cn/blog/topic/03103221491089011)
 * [JZ31 栈的压入、弹出序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104088717445272)
 * [NC52 有效括号序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104091461031275?fid=23)
+* [NC175 合法的括号字符串](https://developer.huawei.com/consumer/cn/blog/topic/03104176756471041)
 
 ### Host 托管
 
