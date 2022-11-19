@@ -120,6 +120,7 @@
 * [JZ31 栈的压入、弹出序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104088717445272)
 * [NC52 有效括号序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104091461031275?fid=23)
 * [NC175 合法的括号字符串](https://developer.huawei.com/consumer/cn/blog/topic/03104176756471041)
+* [NC85 拼接所有的字符串产生字典序最小的字符串](https://developer.huawei.com/consumer/cn/forum/topic/0202104254018684296)
 
 ### Host 托管
 
