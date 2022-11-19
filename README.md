@@ -121,6 +121,7 @@
 * [NC52 有效括号序列](https://developer.huawei.com/consumer/cn/forum/topic/0201104091461031275?fid=23)
 * [NC175 合法的括号字符串](https://developer.huawei.com/consumer/cn/blog/topic/03104176756471041)
 * [NC85 拼接所有的字符串产生字典序最小的字符串](https://developer.huawei.com/consumer/cn/forum/topic/0202104254018684296)
+* [NC36 在两个长度相等的排序数组中找到上中位](https://developer.huawei.com/consumer/cn/forum/topic/0202104260380514297)
 
 ### Host 托管
 
